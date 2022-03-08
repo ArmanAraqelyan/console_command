@@ -129,7 +129,13 @@ function sort_array_by_numbers($array): array
 
 function show_result($result): void
 {
-    var_export($result);
+    if (is_array($result)) {
+        foreach ($result as $item) {
+            echo $item . " ";
+        }
+    }else {
+        var_export($result);
+    }
 }
 
 init($argv, $main_array);
