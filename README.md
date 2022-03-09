@@ -23,11 +23,16 @@ array elements
 ## Usage
 
 - Open console
-- enter this 
+- enter this if you are using Windows:
 ```bash
 script input parameters --command
 ```
 ![image](https://user-images.githubusercontent.com/45182546/157296334-90cca0f1-4695-4418-b7ef-6976e640499e.png)
+
+- if your OS is not Windows then enter like this:
+```bash
+php main.php input parameters --command
+```
 
 ### Commands available here
 ```bash
